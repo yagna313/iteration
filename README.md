@@ -1,1 +1,214 @@
 # iteration
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iteration methods</title>
+</head>
+<body>
+    <script>
+        // array sort
+         
+        // sort()
+
+         //let a=[6,8,1,9,0];
+         //console.log(a.sort());
+         //console.log(a.reverse());
+         //let b=["yagna","rishi","doddapuneni","prathyusha"];
+         //console.log(b.sort());
+        //console.log(b.reverse());
+
+        // comparing function
+        // callback
+        // function hello1(a){
+        // alert(a)
+           
+        // }
+        // function hello(a,b){
+        //     return a+b;
+        // }
+        // let out=hello(2,3);
+        // hello1(5)
+
+        // let a=[6,8,1,9,0];
+        // console.log(a.sort());
+        // function hello(a,b){
+        //     return a-b;
+        // }
+
+        // array iteration
+        // array forEach()
+    //     let a=[6,8,1,9,0];
+    //     console.log(a);
+    //    let b=a.forEach(prathyu);
+    //    function prathyu(a,b,c){
+    //     console.log(a);
+    //     console.log(b);
+    //     console.log(c);
+        
+    //    }
+
+    // array map()
+    // let a=[3,6,9,2,5,7];
+    // console.log(a);
+    // let b=a.map(prathyu);
+    // function prathyu(a){
+    //     return a*2;
+    // }
+    // console.log(b);
+
+    // array filter()
+    //  let a=[3,6,9,2,5,7];
+    // console.log(a);
+    // let b=a.filter(prathyu);
+    // function prathyu(a){
+    //     return a%2==0;
+    // }
+    // console.log(b);
+
+    // array reduce()
+    //  let a=[3,6,9,2,5,7];
+    // console.log(a);
+    // let b=a.reduce(prathyu);
+    // function prathyu(total,a,b,c){
+    //     return total+a;
+    // }
+    // console.log(b);
+
+    // array every()
+    // let a=[5,7,2,4,8,6,3];
+    // console.log(a);
+    // let b=a.every(prathyu);
+    // function prathyu(a,b,c){
+    //     return a>7;
+    // }
+    // console.log(b);
+
+    // array some()
+    // let a=[5,7,2,4,8,6,3];
+    // console.log(a);
+    // let b=a.some(prathyu);
+    // function prathyu(a,b,c){
+    //     return a>7;
+    // }
+    // console.log(b);
+
+    // array find()
+    // let a=[5,7,2,4,8,6,3];
+    // console.log(a);
+    // let b=a.find(prathyu);
+    // function prathyu(a,b,c){
+    //     return b>4;
+    // }
+    // console.log(b);
+
+    // array find()
+    // let a=[5,7,2,4,8,6,3];
+    // console.log(a);
+    // let b=a.findIndex(prathyu);
+    // function achu(a,b,c){
+    //     return b>3;
+    // }
+    // console.log(b);
+
+
+
+    // array index()
+    let a=[5,7,2,4,8,6,3];
+    console.log(a);
+    let b=a.indexOf(7);
+    console.log(b);
+
+    let c=a.lastIndexOf(3);
+    console.log(c);
+
+
+   
+
+
+
+
+       
+        // task-1
+        // let a=[1,5,7,6,4,2,3,7,8,3];
+        // console.log(a);
+        // let b=a.map(hello);
+        // function hello(a,b,c){
+        //     return a*2;
+        // }
+        // console.log(b);
+        
+        // -------------------------------------------
+
+        // task-2
+        // let a=[undefined,2,undefined,4,undefined,6,undefined];
+        // console.log(a);
+        // let b=a.filter(hello);
+        // function hello(a,b,c){
+        //     return a%2==0;
+        // }
+        // console.log(b);
+// --------------------------------------------------------
+
+// task-3
+
+// let a=[1,2,3,5,9];
+// console.log(a);
+// c=0;
+// for(i=0;i<a.length;i++){
+//     c+=a[i]
+// }
+// console.log(c);
+
+// ----------------------------------------
+
+// task-4
+// let a=[[2,1],[8,6],[9,4]];
+// let b=[];
+
+// for(i=0;i<a.length;i++){
+//     let c=[];
+//     for(j=0;j<a[i].length;j++){
+//         if(a[i][j]>b){
+//             b=(a[i][j])
+//             c.push(b)
+//         }
+//     }
+//     console.log(c);
+   
+// }
+// -------------------------------------------------
+
+// task-5
+
+// let a=[30,60,45,36,93,49,28,37];
+// let b=[];
+// for(i=0;i<a.length;i++){
+//     if(a[i]>b){
+//         b=a[i]
+//     }
+// }
+// console.log(b);
+
+// ----------------------------------------------
+
+// task-6
+
+// let a=[25,67,4,34,87,95,6,3];
+// let b=[];
+// for(i=0;i<a.length;i++){
+//     if(i%2==0){
+//        b+=a[i]+",";
+//     }
+// }
+// console.log(b);
+
+
+
+
+
+
+    </script>
+</body>
+</html>
